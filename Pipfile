@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+black = "*"
+pylint = "*"
+
+[packages]
+django = "*"
+uwsgi = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+django-cors-headers = "*"
+sentry-sdk = "==0.14.3"
+django-prometheus = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
