@@ -1,0 +1,14 @@
+.DS_Store
+.vscode
+*.sqlite3
+__pycache__
+/static/**
+.deploy-now/**
+!.deploy-now/env.sh.example
+.env
+.env.sh
+.terraform
+*.tfstate
+*.backup
+*.tfvars
+!*.example.tfvars
